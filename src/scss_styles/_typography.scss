@@ -1,0 +1,14 @@
+@use '@angular/material' as mat;
+@use './color-palettes' as palettes;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
