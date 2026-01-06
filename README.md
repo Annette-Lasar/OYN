@@ -1,4 +1,6 @@
 # Oyn
+Project start 2025-12-30
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
 
@@ -57,3 +59,12 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
+# Licenses
+## Icons
+### Pen
+<img src="./public/icons/logos/pen_icon_black.svg" width="200"> <br/>
+author: Phosphor <br/>
+source: https://icon-icons.com/icon/pen-nib/173645 

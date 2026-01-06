@@ -1,0 +1,36 @@
+@use '@angular/material' as mat;
+@use './palettes' as palettes;
+
+$blue-ocean-theme: mat.m2-define-light-theme(
+  (
+    color: (
+      primary: palettes.$blue-ocean--primary,
+      accent: palettes.$blue-ocean--accent,
+      warn: palettes.$blue-ocean--warn,
+    ),
+  )
+);
+
+.blue-ocean-theme {
+  @include mat.all-component-themes($blue-ocean-theme);
+}
+
+/* Später an den Code anpassen! */
+
+// .blue-ocean-theme {
+
+//   /* Angular Material */
+//   @include mat.all-component-themes($blue-ocean-theme);
+
+//   /* ===== DEIN CODE: Design-System ===== */
+//   .editor {
+//     background-color: mat.m2-get-color-from-palette(
+//       palettes.$blue-ocean--secondary,
+//       50
+//     );
+//     color: mat.m2-get-color-from-palette(
+//       palettes.$blue-ocean--secondary,
+//       500
+//     );
+//   }
+// }
