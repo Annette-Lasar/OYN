@@ -1,98 +1,98 @@
 @use '@angular/material' as mat;
-@use './palettes' as palettes;
+@use 'palettes' as palettes;
 
 :root {
     // primary colors: 
-    --blue-ocean-primary-50: #{mat.m2-get-color-from-palette($blue-ocean--primary, 50)};
-    --blue-ocean-primary-100: #{mat.m2-get-color-from-palette($blue-ocean--primary, 100)};
-    --blue-ocean-primary-200: #{mat.m2-get-color-from-palette($blue-ocean--primary, 200)};
-    --blue-ocean-primary-300: #{mat.m2-get-color-from-palette($blue-ocean--primary, 300)};
-    --blue-ocean-primary-400: #{mat.m2-get-color-from-palette($blue-ocean--primary, 400)};
-    --blue-ocean-primary-500: #{mat.m2-get-color-from-palette($blue-ocean--primary, 500)};
-    --blue-ocean-primary-600: #{mat.m2-get-color-from-palette($blue-ocean--primary, 600)};
-    --blue-ocean-primary-700: #{mat.m2-get-color-from-palette($blue-ocean--primary, 700)};
-    --blue-ocean-primary-800: #{mat.m2-get-color-from-palette($blue-ocean--primary, 800)};
-    --blue-ocean-primary-900: #{mat.m2-get-color-from-palette($blue-ocean--primary, 900)};
+    --blue-ocean-primary-50: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 50)};
+    --blue-ocean-primary-100: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 100)};
+    --blue-ocean-primary-200: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 200)};
+    --blue-ocean-primary-300: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 300)};
+    --blue-ocean-primary-400: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 400)};
+    --blue-ocean-primary-500: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 500)};
+    --blue-ocean-primary-600: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 600)};
+    --blue-ocean-primary-700: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 700)};
+    --blue-ocean-primary-800: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 800)};
+    --blue-ocean-primary-900: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--primary, 900)};
 
-    --blue-ocean-primary-contrast-50: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 50)};
-    --blue-ocean-primary-contrast-100: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 100)};
-    --blue-ocean-primary-contrast-200: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 200)};
-    --blue-ocean-primary-contrast-300: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 300)};
-    --blue-ocean-primary-contrast-400: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 400)};
-    --blue-ocean-primary-contrast-500: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 500)};
-    --blue-ocean-primary-contrast-600: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 600)};
-    --blue-ocean-primary-contrast-700: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 700)};
-    --blue-ocean-primary-contrast-800: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 800)};
-    --blue-ocean-primary-contrast-900: #{mat.m2-get-contrast-color-from-palette($blue-ocean--primary, 900)};
+    --blue-ocean-primary-contrast-50: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 50)};
+    --blue-ocean-primary-contrast-100: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 100)};
+    --blue-ocean-primary-contrast-200: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 200)};
+    --blue-ocean-primary-contrast-300: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 300)};
+    --blue-ocean-primary-contrast-400: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 400)};
+    --blue-ocean-primary-contrast-500: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 500)};
+    --blue-ocean-primary-contrast-600: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 600)};
+    --blue-ocean-primary-contrast-700: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 700)};
+    --blue-ocean-primary-contrast-800: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 800)};
+    --blue-ocean-primary-contrast-900: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--primary, 900)};
 
     // secondary colors: 
 
-    --blue-ocean-secondary-50: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 50)};
-    --blue-ocean-secondary-100: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 100)};
-    --blue-ocean-secondary-200: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 200)};
-    --blue-ocean-secondary-300: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 300)};
-    --blue-ocean-secondary-400: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 400)};
-    --blue-ocean-secondary-500: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 500)};
-    --blue-ocean-secondary-600: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 600)};
-    --blue-ocean-secondary-700: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 700)};
-    --blue-ocean-secondary-800: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 800)};
-    --blue-ocean-secondary-900: #{mat.m2-get-color-from-palette($blue-ocean--secondary, 900)};
+    --blue-ocean-secondary-50: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 50)};
+    --blue-ocean-secondary-100: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 100)};
+    --blue-ocean-secondary-200: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 200)};
+    --blue-ocean-secondary-300: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 300)};
+    --blue-ocean-secondary-400: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 400)};
+    --blue-ocean-secondary-500: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 500)};
+    --blue-ocean-secondary-600: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 600)};
+    --blue-ocean-secondary-700: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 700)};
+    --blue-ocean-secondary-800: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 800)};
+    --blue-ocean-secondary-900: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--secondary, 900)};
 
-    --blue-ocean-secondary-contrast-50: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 50)};
-    --blue-ocean-secondary-contrast-100: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 100)};
-    --blue-ocean-secondary-contrast-200: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 200)};
-    --blue-ocean-secondary-contrast-300: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 300)};
-    --blue-ocean-secondary-contrast-400: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 400)};
-    --blue-ocean-secondary-contrast-500: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 500)};
-    --blue-ocean-secondary-contrast-600: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 600)};
-    --blue-ocean-secondary-contrast-700: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 700)};
-    --blue-ocean-secondary-contrast-800: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 800)};
-    --blue-ocean-secondary-contrast-900: #{mat.m2-get-contrast-color-from-palette($blue-ocean--secondary, 900)};
-
-    // warn colors: 
-
-    --blue-ocean-warn-50: #{mat.m2-get-color-from-palette($blue-ocean--warn, 50)};
-    --blue-ocean-warn-100: #{mat.m2-get-color-from-palette($blue-ocean--warn, 100)};
-    --blue-ocean-warn-200: #{mat.m2-get-color-from-palette($blue-ocean--warn, 200)};
-    --blue-ocean-warn-300: #{mat.m2-get-color-from-palette($blue-ocean--warn, 300)};
-    --blue-ocean-warn-400: #{mat.m2-get-color-from-palette($blue-ocean--warn, 400)};
-    --blue-ocean-warn-500: #{mat.m2-get-color-from-palette($blue-ocean--warn, 500)};
-    --blue-ocean-warn-600: #{mat.m2-get-color-from-palette($blue-ocean--warn, 600)};
-    --blue-ocean-warn-700: #{mat.m2-get-color-from-palette($blue-ocean--warn, 700)};
-    --blue-ocean-warn-800: #{mat.m2-get-color-from-palette($blue-ocean--warn, 800)};
-    --blue-ocean-warn-900: #{mat.m2-get-color-from-palette($blue-ocean--warn, 900)};
-
-    --blue-ocean-warn-contrast-50: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 50)};
-    --blue-ocean-warn-contrast-100: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 100)};
-    --blue-ocean-warn-contrast-200: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 200)};
-    --blue-ocean-warn-contrast-300: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 300)};
-    --blue-ocean-warn-contrast-400: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 400)};
-    --blue-ocean-warn-contrast-500: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 500)};
-    --blue-ocean-warn-contrast-600: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 600)};
-    --blue-ocean-warn-contrast-700: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 700)};
-    --blue-ocean-warn-contrast-800: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 800)};
-    --blue-ocean-warn-contrast-900: #{mat.m2-get-contrast-color-from-palette($blue-ocean--warn, 900)};
+    --blue-ocean-secondary-contrast-50: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 50)};
+    --blue-ocean-secondary-contrast-100: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 100)};
+    --blue-ocean-secondary-contrast-200: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 200)};
+    --blue-ocean-secondary-contrast-300: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 300)};
+    --blue-ocean-secondary-contrast-400: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 400)};
+    --blue-ocean-secondary-contrast-500: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 500)};
+    --blue-ocean-secondary-contrast-600: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 600)};
+    --blue-ocean-secondary-contrast-700: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 700)};
+    --blue-ocean-secondary-contrast-800: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 800)};
+    --blue-ocean-secondary-contrast-900: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--secondary, 900)};
 
     // warning colors: 
-        --blue-ocean-accent-50: #{mat.m2-get-color-from-palette($blue-ocean--accent, 50)};
-    --blue-ocean-accent-100: #{mat.m2-get-color-from-palette($blue-ocean--accent, 100)};
-    --blue-ocean-accent-200: #{mat.m2-get-color-from-palette($blue-ocean--accent, 200)};
-    --blue-ocean-accent-300: #{mat.m2-get-color-from-palette($blue-ocean--accent, 300)};
-    --blue-ocean-accent-400: #{mat.m2-get-color-from-palette($blue-ocean--accent, 400)};
-    --blue-ocean-accent-500: #{mat.m2-get-color-from-palette($blue-ocean--accent, 500)};
-    --blue-ocean-accent-600: #{mat.m2-get-color-from-palette($blue-ocean--accent, 600)};
-    --blue-ocean-accent-700: #{mat.m2-get-color-from-palette($blue-ocean--accent, 700)};
-    --blue-ocean-accent-800: #{mat.m2-get-color-from-palette($blue-ocean--accent, 800)};
-    --blue-ocean-accent-900: #{mat.m2-get-color-from-palette($blue-ocean--accent, 900)};
 
-    --blue-ocean-accent-contrast-50: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 50)};
-    --blue-ocean-accent-contrast-100: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 100)};
-    --blue-ocean-accent-contrast-200: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 200)};
-    --blue-ocean-accent-contrast-300: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 300)};
-    --blue-ocean-accent-contrast-400: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 400)};
-    --blue-ocean-accent-contrast-500: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 500)};
-    --blue-ocean-accent-contrast-600: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 600)};
-    --blue-ocean-accent-contrast-700: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 700)};
-    --blue-ocean-accent-contrast-800: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 800)};
-    --blue-ocean-accent-contrast-900: #{mat.m2-get-contrast-color-from-palette($blue-ocean--accent, 900)};
+    --blue-ocean-warn-50: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 50)};
+    --blue-ocean-warn-100: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 100)};
+    --blue-ocean-warn-200: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 200)};
+    --blue-ocean-warn-300: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 300)};
+    --blue-ocean-warn-400: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 400)};
+    --blue-ocean-warn-500: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 500)};
+    --blue-ocean-warn-600: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 600)};
+    --blue-ocean-warn-700: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 700)};
+    --blue-ocean-warn-800: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 800)};
+    --blue-ocean-warn-900: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--warn, 900)};
+
+    --blue-ocean-warn-contrast-50: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 50)};
+    --blue-ocean-warn-contrast-100: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 100)};
+    --blue-ocean-warn-contrast-200: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 200)};
+    --blue-ocean-warn-contrast-300: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 300)};
+    --blue-ocean-warn-contrast-400: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 400)};
+    --blue-ocean-warn-contrast-500: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 500)};
+    --blue-ocean-warn-contrast-600: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 600)};
+    --blue-ocean-warn-contrast-700: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 700)};
+    --blue-ocean-warn-contrast-800: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 800)};
+    --blue-ocean-warn-contrast-900: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--warn, 900)};
+
+    // warning colors: 
+        --blue-ocean-accent-50: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 50)};
+    --blue-ocean-accent-100: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 100)};
+    --blue-ocean-accent-200: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 200)};
+    --blue-ocean-accent-300: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 300)};
+    --blue-ocean-accent-400: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 400)};
+    --blue-ocean-accent-500: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 500)};
+    --blue-ocean-accent-600: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 600)};
+    --blue-ocean-accent-700: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 700)};
+    --blue-ocean-accent-800: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 800)};
+    --blue-ocean-accent-900: #{mat.m2-get-color-from-palette(palettes.$blue-ocean--accent, 900)};
+
+    --blue-ocean-accent-contrast-50: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 50)};
+    --blue-ocean-accent-contrast-100: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 100)};
+    --blue-ocean-accent-contrast-200: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 200)};
+    --blue-ocean-accent-contrast-300: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 300)};
+    --blue-ocean-accent-contrast-400: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 400)};
+    --blue-ocean-accent-contrast-500: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 500)};
+    --blue-ocean-accent-contrast-600: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 600)};
+    --blue-ocean-accent-contrast-700: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 700)};
+    --blue-ocean-accent-contrast-800: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 800)};
+    --blue-ocean-accent-contrast-900: #{mat.m2-get-contrast-color-from-palette(palettes.$blue-ocean--accent, 900)};
 }

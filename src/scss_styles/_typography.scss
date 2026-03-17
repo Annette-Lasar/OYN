@@ -1,14 +1,18 @@
 @use '@angular/material' as mat;
-@use './color-palettes' as palettes;
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+
+h1 {
+  font-family: 'Lexend', sans-serif;
 }

@@ -1,0 +1,113 @@
+@use 'angular@material' as mat;
+
+$dark-ink--primary: mat.m2-define-palette(
+  (
+    50: #e6eef5,
+    100: #c1d4e6,
+    200: #9bb8d6,
+    300: #749bc5,
+    400: #5685b9,
+    500: #2f4f6f,
+    600: #294865,
+    700: #223e58,
+    800: #1c354c,
+    900: #112334,
+    contrast: (
+      50: rgb(58, 58, 58),
+      100: rgb(58, 58, 58),
+      200: rgb(58, 58, 58),
+      300: #ffffff,
+      400: #ffffff,
+      500: #ffffff,
+      600: #ffffff,
+      700: #ffffff,
+      800: #ffffff,
+      900: #ffffff,
+    ),
+  ),
+  500
+);
+
+$dark-ink--secondary: mat.m2-define-palette(
+  (
+    50: #f2f2f2,
+    100: #d6d6d6,
+    200: #b8b8b8,
+    300: #9a9a9a,
+    400: #7c7c7c,
+    500: #3a3a3a,
+    600: #323232,
+    700: #2a2a2a,
+    800: #222222,
+    900: #141414,
+    contrast: (
+      50: rgb(58, 58, 58),
+      100: rgb(58, 58, 58),
+      200: rgb(58, 58, 58),
+      300: rgb(58, 58, 58),
+      400: rgb(58, 58, 58),
+      500: #ffffff,
+      600: #ffffff,
+      700: #ffffff,
+      800: #ffffff,
+      900: #ffffff,
+    ),
+  ),
+  500
+);
+
+$dark-ink--accent: mat.m2-define-palette(
+  (
+    50: #eeeaf4,
+    100: #d1c7e3,
+    200: #b2a1d1,
+    300: #937bbf,
+    400: #7c60b2,
+    500: #5a3f8c,
+    600: #50397d,
+    700: #44316a,
+    800: #392957,
+    900: #261c3d,
+    contrast: (
+      50: rgb(58, 58, 58),
+      100: rgb(58, 58, 58),
+      200: #ffffff,
+      300: #ffffff,
+      400: #ffffff,
+      500: #ffffff,
+      600: #ffffff,
+      700: #ffffff,
+      800: #ffffff,
+      900: #ffffff,
+    ),
+  ),
+  500
+);
+
+$dark-ink--warn: mat.m2-define-palette(
+  (
+    50: #f4e9e9,
+    100: #e5c2c2,
+    200: #d69999,
+    300: #c66f6f,
+    400: #ba4f4f,
+    500: #8c2f2f,
+    600: #7e2929,
+    700: #6b2222,
+    800: #581c1c,
+    900: #3d1212,
+    contrast: (
+      50: rgb(58, 58, 58),
+      100: rgb(58, 58, 58),
+      200: #ffffff,
+      300: #ffffff,
+      400: #ffffff,
+      500: #ffffff,
+      600: #ffffff,
+      700: #ffffff,
+      800: #ffffff,
+      900: #ffffff,
+    ),
+  ),
+  500
+);
